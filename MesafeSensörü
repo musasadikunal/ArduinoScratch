@@ -1,3 +1,4 @@
+
 // NEW IN VERSION 1.4:
 // Changed Serial.print() for Serial.write() in ScratchBoardSensorReport function to make it compatible with latest Arduino IDE (1.0)
 
@@ -185,8 +186,10 @@ void updateActuator(int pinNumber)
   distancia = ((float(pulso/1000.0))*34.32)/2;
   if (outputs[pinNumber] == 'd'){
      digitalWrite(pinNumber + 4, states[pinNumber]);
-  }else if (outputs[pinNumber] == 'a'){
-     analogWrite(pinNumber + 4, states[pinNumber]);
+  
+  }
+  if (outputs[pinNumber] == 's'){
+     digitalWrite(pinNumber + 4, states[pinNumber]);
   }
 }
 
@@ -196,7 +199,7 @@ void sendUpdateServomotors()
   for (int p = 0; p < 10; p++)
   {
     if (outputs[p] == 'c') servomotorC(p + 4, states[p]);
-    if (outputs[p] == 's') servomotorS(p + 4, states[p]);
+    if (outputs[p] == 'c') servomotorS(p + 4, states[p]);
   }
 }
 
