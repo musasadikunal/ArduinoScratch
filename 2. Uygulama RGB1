@@ -1,0 +1,55 @@
+#define kirmizi 13
+#define yesil 12
+#define mavi 11
+
+void setup() {
+  pinMode(kirmizi,OUTPUT);
+  pinMode(yesil,OUTPUT);
+  pinMode(mavi,OUTPUT);
+}
+
+void loop() {
+
+  // Kırmızı için
+  digitalWrite(kirmizi,LOW);
+  digitalWrite(yesil,HIGH);
+  digitalWrite(mavi,HIGH);
+
+  delay(500);
+  // Yeşil için
+  digitalWrite(kirmizi,HIGH);
+  digitalWrite(yesil,LOW);
+  digitalWrite(mavi,HIGH);
+
+  delay(500);
+  // Mavi için
+  digitalWrite(kirmizi,HIGH);
+  digitalWrite(yesil,HIGH);
+  digitalWrite(mavi,LOW);
+
+  delay(500);
+  // Sarı için
+  digitalWrite(kirmizi,LOW);
+  digitalWrite(yesil,LOW);
+  digitalWrite(mavi,HIGH);
+
+  delay(500);
+  // Turkuaz için
+  digitalWrite(kirmizi,HIGH);
+  digitalWrite(yesil,LOW);
+  digitalWrite(mavi,LOW);
+
+  delay(500);
+  // Mor için
+  digitalWrite(kirmizi,LOW);
+  digitalWrite(yesil,HIGH);
+  digitalWrite(mavi,LOW);
+
+  delay(500); 
+  // Beyaz için
+  digitalWrite(kirmizi,LOW);
+  digitalWrite(yesil,LOW);
+  digitalWrite(mavi,LOW);
+
+  delay(500);
+}
