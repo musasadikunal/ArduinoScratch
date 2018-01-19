@@ -9,7 +9,7 @@ Kitap boyunca kullanılan uygulamalar aşağıdaki gibidir.
 
 | Uygulama | Link |
 | ------ | ------ |
-| Arduino | [arduino.cc]  |
+| Arduino | [] (arduino.cc) |
 | S4A | [s4a.cat]  |
 | Scratcher Control | [] |
 
