@@ -242,3 +242,4 @@ ISR(TIMER2_OVF_vect) //timer1 overflow interrupt vector handler
   newInterruption = !newInterruption;
   TCNT2 = TIMER2_PRELOAD;  //reset timer
 }
+

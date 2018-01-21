@@ -233,4 +233,3 @@ void checkScratchDisconnection() //the reset is necessary when using an wireless
   if (millis() - lastDataReceivedTime > 1000) reset(); //reset state if actuators reception timeout = one second
 }
 
-
