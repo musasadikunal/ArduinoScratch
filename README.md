@@ -2,6 +2,9 @@
 
 Kitabın linki [Çocuklar İçin Scracth ile Arduino Programlama](https://www.dikeyeksen.com/products/cocuklar-icin-scratch-ile-arduino-programlama)
 
+![image](https://user-images.githubusercontent.com/19881231/36341572-6dfffc50-1401-11e8-9076-2a7b4ffe8683.png)
+
+
 >Bir çocuğun kod yazması veya yeni şeyler üretmeye çalışması neden önemlidir? Öncelikle kod yazmak veya bir program geliştirmek tamamen düşünme tabanlıdır. Çocuklara verilecek programlama eğitimi hem matematiksel hem de algoritmik düşünme yeteneği kazandırır. Scratch ile Arduino Programlamaya dair birçok konuyu bu kitapta öğreneceksiniz. Amacımız, çocukların etraflarındaki basit elektronik devrelerin nasıl çalıştığını ve bu sistemleri nasıl yapabileceklerini anlatmaktı. Kitaptaki basit uygulamalarla kendi programlarınızı yapabilecek seviyeye ulaşacaksınız. 
 >
 
